@@ -19,6 +19,7 @@ class Anagram
      end
     end
     match_array
+    binding.pry
   end
   
   
