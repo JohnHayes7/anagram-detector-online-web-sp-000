@@ -16,10 +16,10 @@ class Anagram
     @@word_array.collect do |i|
      if i.split("").sort == @word.split("").sort
        match_array << i
+        binding.pry
      end
     end
     match_array
-    binding.pry
   end
   
   
